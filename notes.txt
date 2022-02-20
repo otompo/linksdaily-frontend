@@ -1,0 +1,79 @@
+
+
+/** center top */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     alignItems: "center",
+//     // justifyContent: "flex-end",
+//   },
+// });
+/** top left */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     // alignItems: "center",
+//     // justifyContent: "center",
+//   },
+// });
+
+/** center left */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     // alignItems: "center",
+//     justifyContent: "center",
+//   },
+// });
+/**bottom left */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     justifyContent: "flex-end",
+//   },
+// });
+
+/**top right */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     alignItems: "flex-end",
+//     // justifyContent: "center",
+//   },
+// });
+
+/**center right */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     alignItems: "flex-end",
+//     justifyContent: "center",
+//   },
+// });
+
+/**bottom right */
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     alignItems: "flex-end",
+//     justifyContent: "flex-end",
+//   },
+// });
+
+
+
+// components
+const Welcome = (props) => (
+  <View>
+    <Text>Hello {props.name}</Text>
+  </View>
+);
+
+npm i @react-navigation/native react-native-screens react-native-safe-area-context
